@@ -2,21 +2,21 @@
 GWASCatalogFileDownloadURL: "https://www.ebi.ac.uk/gwas/api/search/downloads/studies/v1.0.2.1"
 
 DownloadHeader:
-    Cookie: '_ga_11XLYWT8G7=GS1.3.1708161544.1.1.1708161571.0.0.0; _ga=GA1.1.1495878837.1708158475; _ga_JD9QTGRJ05=GS1.1.1708268563.6.0.1708268563.0.0.0; embl-ebi-public-website-v1.0-data-protection-accepted=true; _ga_C4KFST3T0G=GS1.1.1729480425.10.1.1729480427.0.0.0'
+    Cookie: 'xxxx'
     Host: 'www.ebi.ac.uk'
     Referer: 'https://www.ebi.ac.uk/gwas/docs/file-downloads'
     User-Agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36'
 
-CatalogFilePath: "/h/xuqinyi/gwasdl/test/gwas_catalog.tsv"
-SummaryFilePath: "/h/xuqinyi/gwasdl/test/summary.csv"
-LastUpdatedTime: "2024-06-16"
+CatalogFilePath: "/xx/xx"
+SummaryFilePath: "/xx/xx"
+LastUpdatedTime: "xxxx-xx-xx"
 
 ## create harmonised file and get file urls
-HarmonisedFilePath: "/h/xuqinyi/gwasdl/test/harmonised.csv"
+HarmonisedFilePath: "xx/harmonised.csv"
 ConcurrentNum: 8
 
 ## download info
-BaseDir: '/h/xuqinyi/gwasdl/test/data'
-CommandFile: "/h/xuqinyi/gwasdl/test/commands.txt"
-AsperaSSH: "/h/xuqinyi/mambaforge/envs/gwasdl/etc/asperaweb_id_dsa.openssh"
+BaseDir: 'xxx/data'
+CommandFile: "xxx/commands.txt"
+AsperaSSH: "xxx/asperaweb_id_dsa.openssh"
 ProcessNum: 10
